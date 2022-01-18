@@ -17,6 +17,7 @@ cd disease_predictions
 py -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+cd symtprom-checker
 ```
 
 * Run migrate command
