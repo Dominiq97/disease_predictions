@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block container %}
+<table class="table">
+    <tr>
+        <th>Symptom</th>
+    </tr>
+{% for symptom in symptoms %}
+    <tr>
+        <td>{{symptom.name}}</td>
+    </tr>
+{% endfor %}
+</table>
+{% endblock %}

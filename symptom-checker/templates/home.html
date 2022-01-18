@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block container %}
+
+<p>This app contains the following urls</p>
+
+<ul>
+    <li><a href="{% url 'store:symptom_list'%}">Symptom List</a></li>
+    <li><a href="{% url 'store:create_diagnosis'%}">Add multiple symptoms</a></li>
+</ul>
+{% endblock %}
