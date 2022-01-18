@@ -7,19 +7,16 @@ A tutorial app to explain django dynamic formsets. Blog post can be found [here]
 * Clone the project
 
 ```
-git clone https://github.com/taranjeet/django-checker-app.git
+https://github.com/Dominiq97/disease_predictions.git
 ```
 
 * Make sure python and virtual environment is installed. Create virtual environment and install packages
 
 ```
-cd django-checker-app
-virtualenv -p $(which python3) pyenv
-# activate virtual environment
-source pyenv/bin/activate
-# install packages
+cd disease_predictions
+py -m venv venv
+venv\Scripts\activate
 pip install -r requirements.txt
-cd djchecker
 ```
 
 * Run migrate command
